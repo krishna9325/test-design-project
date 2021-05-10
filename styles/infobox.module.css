@@ -1,0 +1,14 @@
+.infobox{
+    flex: 1;
+    height: 120px;
+}
+
+.infobox:not(:last-child) {
+    margin-right: 15px;
+}
+
+.infotitle {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: rgb(161, 161, 161);
+}
